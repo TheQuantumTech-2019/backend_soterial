@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v10.3.3',
-        'version' => '10.3.3.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '020dcd879a04f61b1203a2cf84392bdd96b60f44',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -380,12 +380,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v10.3.3',
-            'version' => '10.3.3.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '020dcd879a04f61b1203a2cf84392bdd96b60f44',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -461,12 +461,12 @@
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
-            'pretty_version' => '3.24.0',
-            'version' => '3.24.0.0',
+            'pretty_version' => '3.25.0',
+            'version' => '3.25.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/flysystem',
             'aliases' => array(),
-            'reference' => 'b25a361508c407563b34fac6f64a8a17a8819675',
+            'reference' => '4c44347133618cccd9b3df1729647a1577b4ad99',
             'dev_requirement' => false,
         ),
         'league/flysystem-local' => array(
@@ -602,12 +602,12 @@
             'dev_requirement' => false,
         ),
         'phpunit/php-code-coverage' => array(
-            'pretty_version' => '10.1.12',
-            'version' => '10.1.12.0',
+            'pretty_version' => '10.1.13',
+            'version' => '10.1.13.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/php-code-coverage',
             'aliases' => array(),
-            'reference' => '842f72662d6b9edda84c4b6f13885fd9cd53dc63',
+            'reference' => 'd51c3aec14896d5e80b354fad58e998d1980f8f8',
             'dev_requirement' => true,
         ),
         'phpunit/php-file-iterator' => array(
@@ -647,12 +647,12 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
-            'pretty_version' => '10.5.11',
-            'version' => '10.5.11.0',
+            'pretty_version' => '10.5.12',
+            'version' => '10.5.12.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
-            'reference' => '0d968f6323deb3dbfeba5bfd4929b9415eb7a9a4',
+            'reference' => '41a9886b85ac7bf3929853baf96b95361cd69d2b',
             'dev_requirement' => true,
         ),
         'psr/clock' => array(
@@ -757,8 +757,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
